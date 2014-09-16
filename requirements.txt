@@ -1,4 +1,5 @@
 mcstatus
 flask
+redis
 gunicorn
 
