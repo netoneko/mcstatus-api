@@ -6,5 +6,7 @@ Provides HTTP API for mcstatus ([https://github.com/Dinnerbone/mcstatus](https:/
 
 ## Configuration options
 
-Environment variable `REDIS_URL` points to your Redis installation which is used for cache.
+* `-v` or `--verbose` enables debug mode
+* `-r` or `--redis-url` allows to pass custom Redis URL
+* `-s` or `--simple` disables connection to Redis
 

@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 from minecraft_query import MinecraftQuery
 from urlparse import urlparse
 from os import getenv
-
 from optparse import OptionParser
+
 parser = OptionParser()
 parser.add_option("-r", "--redis-url", dest="redis_url", help="Redis URL", metavar="REDIS_URL")
 parser.add_option("-v", "--verbose", action="store_true", dest="verbose", default=False, help="Verbose mode")
